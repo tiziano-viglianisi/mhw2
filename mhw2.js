@@ -3,8 +3,8 @@ function aprimenu(event) {
     const menutendina = document.querySelector("#menutendina");
     const studiumimage=document.createElement("img");
     studiumimage.src="studium.png";
-    studiumimage.style.width="25%";
-    studiumimage.style.height="5%";
+    studiumimage.style.width="50px";
+    studiumimage.style.height="50px";
     studiumimage.style.marginLeft="5px";
     menutendina.prepend(studiumimage);
     menutendina.classList.remove("hidden");
